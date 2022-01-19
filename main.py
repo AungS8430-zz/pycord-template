@@ -11,7 +11,7 @@ intents = discord.Intents.all()
 intents.members = True
 intents.messages = True
 
-bot=discord.Bot(intents=intents)
+bot=commands.Bot(intents=intents)
 
 for ext in ['cogs.basic.ping']: #add file directory into the list.
     bot.load_extension(ext)
