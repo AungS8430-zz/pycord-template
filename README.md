@@ -11,7 +11,7 @@ git clone https://github.com/AungS8430/pycord-template.git
 pip install -r requirements.txt
 ``` 
 to install requirements.
-5. Go to `.env.example`, remove .example and insert your bot's token and welcome channel ID into the file. **You must keep your bot's token private!**
+5. Go to `.env`, and insert your bot's token and welcome channel ID into the file. **You must keep your bot's token private!**
 6. To run this basic bot, run 
 ```bash
 python 3.8 main.py
