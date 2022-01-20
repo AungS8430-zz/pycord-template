@@ -17,4 +17,4 @@ for ext in ['cogs.basic.ping']: #add file directory into the list.
     bot.load_extension(ext)
 
 keep_alive() #If you are using Repl.it, this will make your bot online, make sure that you add the mornitor!
-bot.run(str(os.environ.get('TOKEN')))
+bot.run(str(os.environ.get('token')))
